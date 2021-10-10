@@ -1,4 +1,40 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+#grid-container{
+  margin-right:250px;
+  margin-left:250px;
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr 0.5fr 0.5fr;
+  grid-gap:1em;
+  grid-template-rows: 250px;
+}
+#grid-container>div{
+  justify-content: center;
+  align-items: center;
+  text-align: center;     
+}
+#box1{
+  border-radius: 7px;
+  border: 3px solid lightgrey;
+  
+}
+#box2{
+ border-radius: 7px;
+ border: 3px solid lightgrey;
+}
+#box3{ 
+  font-size:45px;
+}
+#box4{
+  border-radius: 7px;
+  border: 3px solid lightgrey;
+}
+#box5{
+  border-radius: 7px;
+  border: 3px solid lightgrey;
+}
+
+#number{
+  font-size: 50px;
+}
+#name{
+  font-size:18px;
 }
